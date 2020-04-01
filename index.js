@@ -7,6 +7,7 @@ app.use(cors())
 app.use(express.json()) 
 app.use(morgan('tiny'))
 app.use(bodyParser.json())
+app.use(express.static('build'))
 morgan.token('person', (request) => JSON.stringify(request.body))
 app.use(morgan(':method :url :status :res[content-length] - :response-time ms :person'))
 
