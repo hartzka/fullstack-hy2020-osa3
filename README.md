@@ -1,5 +1,5 @@
 # fullstack-hy2020-osa3
 
-puhelinluettelon backend
+Puhelinluettelo backend
 
-herokussa pyörivä sovellus: https://lychee-crisp-99897.herokuapp.com/
+App in Heroku: https://lychee-crisp-99897.herokuapp.com/
